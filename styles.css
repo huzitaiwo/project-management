@@ -21,10 +21,10 @@ section {
   padding: 100px;
 }
 .navbar {
-  min-height: 15vh;
   background: #292C36;
 }
-.navbar.container {
+.navbar .container {
+  min-height: 15vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
