@@ -20,14 +20,15 @@ body {
 section {
   padding: 100px;
 }
-header {
-  min-height: 20vh;
-}
 .navbar {
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
+  min-height: 15vh;
   background: #292C36;
+}
+.navbar.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
 }
 .navbar ul {
   display: flex;
