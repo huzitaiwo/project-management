@@ -42,6 +42,14 @@ section {
   color: #fff;
 }
 
-
 /* __________homepage__________ */
+.introduction {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.introduction h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3rem;
+}
 
