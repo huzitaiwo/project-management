@@ -17,6 +17,19 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+.btn {
+  padding: 15px;
+  background: #2C5BFF;
+  color: #fff;
+}
+.transluscent {
+  color: rgba(255,255,255,0.5);
+}
+.secondary-heading {
+  font-size: 2.7rem;
+  max-width: 450px;
+  margin-bottom:20px;
+}
 section {
   padding: 120px 0;
 }
@@ -65,9 +78,6 @@ button {
   font-size: 3rem;
   margin-bottom: 20px;
 }
-.transluscent {
-  color: rgba(255,255,255,0.5);
-}
 form.email {
   margin: 40px 0;
   display: flex;
@@ -80,11 +90,6 @@ form.email input {
   border: none;
   margin-right: 7px;
 }
-form.email button {
-  padding: 15px 15px;
-  background: #2C5BFF;
-  color: #fff;
-}
 .reach {
   display: flex;
   align-items: center;
@@ -96,4 +101,11 @@ form.email button {
 }
 .increased {
   padding-bottom: 10px;
+}
+/* ___features section____ */
+.features > h2,
+.features > p {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto 20px;
 }
