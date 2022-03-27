@@ -113,6 +113,7 @@ form.email input {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
+  margin: 60px 0;
 }
 .features_card-grid .card {
   background: #292C36;
@@ -121,4 +122,11 @@ form.email input {
 }
 .features_card-grid .card img {
   margin-bottom: 30px;
+}
+.features_card-grid .card a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 0;
+  border-bottom: 1px solid #fff;
 }
