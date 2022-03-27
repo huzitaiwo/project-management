@@ -109,3 +109,13 @@ form.email input {
   max-width: 500px;
   margin: 0 auto 20px;
 }
+.features_card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.features_card-grid .card {
+  background: #292C36;
+  padding: 60px 30px;
+  border-radius: 12px;
+}
