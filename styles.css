@@ -119,3 +119,6 @@ form.email input {
   padding: 60px 30px;
   border-radius: 12px;
 }
+.features_card-grid .card img {
+  margin-bottom: 30px;
+}
