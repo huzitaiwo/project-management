@@ -151,3 +151,16 @@ form.email input {
   padding: 20px 0;
   border-radius: 12px;
 }
+/* ___offers section____ */
+.offers-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  grid: 30px;
+  margin: 30px 0;
+}
+.offers-grid ul {
+  margin-top: 20px;
+}
+.offers-grid .btn {
+  margin-top: 30px;
+}
