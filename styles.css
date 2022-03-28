@@ -170,3 +170,37 @@ form.email input {
     padding: 0 60px;
   }
 }
+@media (max-width: 756px) {
+  .navbar {
+    height: 100vh;
+    width: 70vw;
+  }
+  .navbar__backdrop {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .navbar .container {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+  }
+  .navbar ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar li,
+  .navbar button,
+  .logo {
+    padding: 30px 0;
+    margin: 0;
+  }
+  .navbar button {
+    background: none;
+  }
+}
