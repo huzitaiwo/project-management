@@ -176,6 +176,8 @@ form.email input {
     width: 70vw;
     position: fixed;
     background: #2c5bff;
+    width: 0;
+    overflow: hidden;
   }
   .navbar__backdrop {
     background: rgba(0, 0, 0, 0.7);
@@ -184,7 +186,13 @@ form.email input {
     height: 100vh;
     top: 0;
     left: 0;
-    z-index: 1;
+    width: 0;
+    overflow: hidden;
+  }
+  .navbar.active,
+  .navbar__backdrop.active {
+    width: initial;
+    overflow: auto;
   }
   .navbar .container {
     flex-direction: column;
