@@ -80,7 +80,7 @@ button {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
 }
-.introduction h1 {
+h1 {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 3rem;
@@ -90,12 +90,12 @@ button {
 form.email {
   margin: 40px 0;
   display: flex;
+  width: 100%;
 }
 form.email input {
-  min-width: 300px;
   border-radius: 5px;
   background: rgba(0, 0, 0, 0.2);
-  padding: -0 15px;
+  padding: 0 15px;
   border: none;
   margin-right: 7px;
 }
@@ -185,7 +185,7 @@ form.email input {
     padding: 60px 0;
   }
   h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   h2 {
     font-size: 1.7rem;
@@ -194,7 +194,7 @@ form.email input {
     font-size: 1.5rem;
   }
   h4 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .container {
     padding: 0 30px;
@@ -229,5 +229,16 @@ form.email input {
   }
   .navbar button {
     background: none;
+  }
+  .features_card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 512px) {
+  h1 {
+    line-height: 1.5;
+  }
+  .container {
+    padding: 0 15px;
   }
 }
