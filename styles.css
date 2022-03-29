@@ -70,6 +70,10 @@ button {
   text-decoration: none;
   color: #fff;
 }
+.hamburger {
+  display: none;
+  filter: invert(1);
+}
 
 /* __________homepage__________ */
 .introduction {
@@ -171,6 +175,9 @@ form.email input {
   }
 }
 @media (max-width: 756px) {
+  .hamburger {
+    display: block;
+  }
   .navbar__links {
     position: fixed;
     width: 75vw;
