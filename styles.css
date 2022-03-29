@@ -85,6 +85,7 @@ button {
   font-weight: 600;
   font-size: 3rem;
   margin-bottom: 20px;
+  max-width: 600px;
 }
 form.email {
   margin: 40px 0;
@@ -182,6 +183,18 @@ form.email input {
 @media (max-width: 756px) {
   section {
     padding: 60px 0;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.7rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.3rem;
   }
   .container {
     padding: 0 30px;
