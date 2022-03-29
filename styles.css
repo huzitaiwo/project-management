@@ -174,7 +174,18 @@ form.email input {
     padding: 0 60px;
   }
 }
+@media (max-width: 998px) {
+  .introduction {
+    grid-template-columns: 1fr;
+  }
+}
 @media (max-width: 756px) {
+  section {
+    padding: 60px 0;
+  }
+  .container {
+    padding: 0 30px;
+  }
   .hamburger {
     display: block;
   }
