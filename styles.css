@@ -172,6 +172,11 @@ form.email input {
   margin-top: 30px;
 }
 
+/* ___review section____ */
+.review .secondary-heading {
+  max-width: none;
+}
+
 /* _____________MEDIA QUERIES______________ */
 @media (max-width: 1200px) {
   .container {
