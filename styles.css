@@ -175,6 +175,7 @@ form.email input {
 /* ___review section____ */
 .review .secondary-heading {
   max-width: none;
+  text-align: center;
 }
 
 /* _____________MEDIA QUERIES______________ */
