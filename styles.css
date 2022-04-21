@@ -169,6 +169,13 @@ form.email input {
   margin-top: 30px;
 }
 
+/* ___offers section____ */
+.review .secondary-heading {
+  max-width: none;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
 /* _____________MEDIA QUERIES______________ */
 @media (max-width: 1200px) {
   .container {
