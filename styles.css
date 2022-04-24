@@ -216,6 +216,17 @@ form.email input {
   margin: 60px auto 0;
 }
 
+footer .container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+footer li {
+  list-style: none;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
 
 /* _____________MEDIA QUERIES______________ */
 @media (max-width: 1200px) {
