@@ -206,6 +206,13 @@ form.email input {
   object-fit: cover;
   margin-right: 10px;
 }
+.btn-review {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 60px auto 0;
+}
+
 
 /* _____________MEDIA QUERIES______________ */
 @media (max-width: 1200px) {
