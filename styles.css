@@ -171,10 +171,40 @@ form.email input {
 }
 
 /* ___offers section____ */
+.review p {
+  line-height: 1.5;
+  font-weight: 100;
+}
 .review .secondary-heading {
   max-width: none;
   text-align: center;
   font-size: 2.4rem;
+}
+.review .review__grids {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+.review .review__grids-column {
+  display: grid;
+  gap: 30px;
+}
+.review .card {
+  padding: 15px;
+}
+.review .client {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #353741;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
 }
 
 /* _____________MEDIA QUERIES______________ */
