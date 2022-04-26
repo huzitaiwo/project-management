@@ -131,8 +131,9 @@ form.email input {
   margin: 60px 0;
 }
 .features_card-grid .card,
-.review__grids .card {
-  background: #292c36;
+.review__grids .card,
+.blog-grid .card {
+  background: #292C36;
   padding: 60px 30px;
   border-radius: 12px;
 }
