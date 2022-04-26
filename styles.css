@@ -238,6 +238,12 @@ form.email input {
 .blog-grid__content {
   padding: 15px;
 }
+.blog-grid__content > p {
+  margin: 15px 0;
+}
+.blog-grid__footer {
+  display: flex;
+}
 
 /* ___footer____ */
 footer .container {
